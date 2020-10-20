@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tayaar">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".OrderOfDate"></activity>
+        <activity android:name=".OrderDate" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".ChangeLanguage" />
+        <activity android:name=".Terms" />
+        <activity android:name=".PersonalData" />
+        <activity android:name=".OrderList" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Bells" />
+        <activity android:name=".Menu" />
+        <activity android:name=".DashBorad" />
+        <activity android:name=".Login" />
+        <activity android:name=".SelectLang" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
